@@ -29,6 +29,9 @@ section
   gap: 2px;
   flex-wrap: wrap;
   overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 section::before 
 {
