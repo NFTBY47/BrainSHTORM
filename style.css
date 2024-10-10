@@ -1,0 +1,95 @@
+.body {
+    background-color: rgb(192, 192, 176);
+}
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.waviy {
+    position: relative;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #544545;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  .waviy-main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .waviy-main span {
+    
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #88b2c0;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.brain-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    margin-left: 5px;
+    display: block;
+}
+
+.main-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-txt {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #544545;
+}
+.main-li {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #544545;
+}
