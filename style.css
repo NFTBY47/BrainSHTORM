@@ -93,3 +93,44 @@
   justify-content: center;
   color: #544545;
 }
+.hr {
+  margin: 20px 0;
+	padding: 0;
+	height: 2px;
+	border: none;
+	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%), 
+				linear-gradient(to right, rgb(10, 10, 16), rgb(255, 255, 255));
+	background-size: 16px 2px, 100% 2px;
+}
+
+.h1-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #544545;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-btn1 {
+  margin-right: 20px;
+  background-color:rgb(138, 138, 108);
+  color: white;
+  border: none;
+  border-radius: 20%;
+}
+
+.main-btn2 {
+  margin-right: 20px;
+  background-color:rgb(138, 138, 108);
+  color: white;
+  border: none;
+  border-radius: 20%;
+}
