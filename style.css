@@ -155,3 +155,14 @@
   text-align: center;
   justify-content: center;
 }
+
+.hr-f {
+  margin: 20px 0;
+	padding: 0;
+	height: 2px;
+	border: none;
+	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%), 
+				linear-gradient(to right, rgb(10, 10, 16), rgb(255, 255, 255));
+	background-size: 16px 2px, 100% 2px;
+  
+}
