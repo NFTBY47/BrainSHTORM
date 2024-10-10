@@ -133,6 +133,8 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  text-align: center;
+  justify-content: center;
 }
 
 .main-btn2 {
@@ -148,4 +150,6 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  text-align: center;
+  justify-content: center;
 }
