@@ -166,3 +166,25 @@
 	background-size: 16px 2px, 100% 2px;
   
 }
+.footer-txt {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #544545;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: none;
+  border-radius: 5%;
+  color: #544545;
+  background-color: #544545;
+  
+}
