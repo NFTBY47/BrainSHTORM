@@ -27,7 +27,7 @@
   }
   @keyframes flip {
     0%,80% {
-      transform: rotateY(360deg) 
+      transform: rotateY(360deg)
     }
   }
 
@@ -40,7 +40,7 @@
     font-style: normal;
   }
   .waviy-main span {
-    
+
     position: relative;
     display: inline-block;
     font-size: 40px;
@@ -51,7 +51,7 @@
   }
   @keyframes flip {
     0%,80% {
-      transform: rotateY(360deg) 
+      transform: rotateY(360deg)
     }
   }
 
@@ -59,7 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .brain-img {
     display: flex;
@@ -98,7 +98,7 @@
 	padding: 0;
 	height: 2px;
 	border: none;
-	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%), 
+	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%),
 				linear-gradient(to right, rgb(10, 10, 16), rgb(255, 255, 255));
 	background-size: 16px 2px, 100% 2px;
 }
@@ -133,7 +133,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
- 
+
   text-align: center;
   justify-content: center;
 }
@@ -151,7 +151,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  
+
   text-align: center;
   justify-content: center;
 }
@@ -161,30 +161,42 @@
 	padding: 0;
 	height: 2px;
 	border: none;
-	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%), 
+	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%),
 				linear-gradient(to right, rgb(10, 10, 16), rgb(255, 255, 255));
 	background-size: 16px 2px, 100% 2px;
-  
+
 }
-.footer-txt {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  color: #544545;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+.hr1{
+  margin: 20px 0;
+	padding: 0;
+	height: 2px;
+	border: none;
+	background: linear-gradient(to right, transparent 50%, rgb(192, 192, 176) 50%),
+				linear-gradient(to right, rgb(10, 10, 16), rgb(255, 255, 255));
+	background-size: 16px 2px, 100% 2px;
+  margin-top: 40px
 }
-.footer-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.btn-fo1 {
   border: none;
-  border-radius: 5%;
-  color: #544545;
-  background-color: #544545;
-  
+  border-radius: 15%;
+  margin-right: 10px;
+}
+.btn-fo2 {
+  border: none;
+  border-radius: 15%;
+  margin-right: 10px;
+}
+
+.btn-fo3 {
+  border: none;
+  border-radius: 15%;
+  margin-right: 10px;
+}
+
+
+
+.btn-footer-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
